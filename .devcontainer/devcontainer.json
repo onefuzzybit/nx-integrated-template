@@ -1,0 +1,14 @@
+{
+  "build": { "dockerfile": "Dockerfile" },
+  "customizations": {
+	"vscode": {
+		"extensions": [
+			"dbaeumer.vscode-eslint",
+			"eamodio.gitlens",
+			"ms-azuretools.vscode-docker",
+			"donjayamanne.git-extension-pack"
+		]
+	}
+  },
+  "containerUser": "node"
+}
